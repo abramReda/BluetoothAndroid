@@ -6,10 +6,10 @@ and  i publish it in github to get practicing with version control in android st
 u can find some useful date in [android devolper website](https://developer.android.com/guide/topics/connectivity/bluetooth)
 
 ### major tasks necessary to communicate using Bluetooth
-      setting up Bluetooth
-      finding devices that are either paired or available in the local area 
-      connecting devices 
-      transferring data between devices
+ 1. setting up Bluetooth
+ 2. finding devices that are either paired or available in the local area 
+ 3. connecting devices 
+ 4. transferring data between devices
             
 ### Bluetooth permissions
 you need some user permation to can access Bluetooth features in your application
