@@ -12,16 +12,18 @@ u can find some useful date in [android devolper website](https://developer.andr
       transferring data between devices
             
 ### Bluetooth permissions
-you need some user permation to can access Bluetooth features in your application<br>
--"BLUETOOTH" You need this permission to perform any Bluetooth communication, such as requesting a connection, accepting a connection, and transferring data<br>
--"BLUTOOTH_ADMAIN" If you want your app to initiate device discovery or manipulate Bluetooth settings, you must declare this permation<br>
--"ACCESS_COARSE_LOCATION" A location permission is required because Bluetooth scans can be used to gather information about the location of the user.<br>
+you need some user permation to can access Bluetooth features in your application
+- **BLUETOOTH** You need this permission to perform any Bluetooth communication, such as requesting a connection, accepting a connection, and transferring data<br>
+- **BLUTOOTH_ADMAIN** If you want your app to initiate device discovery or manipulate Bluetooth settings, you must declare this permation
+- **ACCESS_COARSE_LOCATION** A location permission is required because Bluetooth scans can be used to gather information about the location of the user.
 
-Declare the Bluetooth permission(s) in your application manifest file. For example:<br>
+Declare the Bluetooth permission(s) in your application manifest file. For example:
+~~~
       <manifest ... >
              <uses-permission android:name="android.permission.BLUETOOTH" />
              <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
              <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
              ...
       </manifest>
+~~~
          
