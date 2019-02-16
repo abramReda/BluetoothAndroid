@@ -9,8 +9,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ibram.bluetooth.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/BluetothOn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="turn on" />
+
+    <Button
+        android:id="@+id/BluetothOff"
+        android:layout_toRightOf="@id/BluetothOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="turn off"
+        android:onClick="DisableBt"/>
 </RelativeLayout>
